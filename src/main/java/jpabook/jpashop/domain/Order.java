@@ -32,7 +32,7 @@ public class Order extends BaseEntity {
     private OrderStatus status;
 
     @OneToOne(fetch = LAZY, cascade = ALL)
-    @JoinColumn(name = "DELIVERY_ID")
+    @JoinColumn(name = "DELIVERY _ID")
     private Delivery delivery;
 
     public Long getId() {
